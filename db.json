@@ -1,210 +1,210 @@
 {
-	"users": [
-		{
-			"email": "arif@gmail.com",
-			"password": "$2a$10$t8KK30NaR8pcugzTl4PWQOSFiHifa72D/ZEEjanV7xRnZwUgbUTlS",
-			"id": "eb850bbb-98c4-4755-9621-de4f71d2e530",
-			"role": "ADMIN",
-			"membershipId": "5028aed4-bfbe-4ce7-be24-b563ca03b7cd",
-			"wallets": [],
-			"orders": [],
-			"wishlists": []
-		},
-		{
-			"email": "arif2@gmail.com",
-			"password": "$2a$10$m7EaUfk7EAh4FPzwHdlWleK3qvtbqIgRdc6fUrNu5PGvdaDaEeraW",
-			"id": "36f4b255-47c7-487b-a9fc-afddbe9914b6",
-			"role": "USER",
-			"membershipId": "dec26b5c-c718-40a4-9b04-c2fc448a69d1",
-			"wallets": [],
-			"orders": [],
-			"wishlists": [],
-			"membership": {
-				"id": "dec26b5c-c718-40a4-9b04-c2fc448a69d1",
-				"price": 300000,
-				"name": "platinum",
-				"discount": 20,
-				"image": "https://res.cloudinary.com/danschgov/image/upload/v1697985707/nextjs/assets/ud6vpvps05mpel6nlvuu.svg"
-			}
-		},
-		{
-			"email": "arif3@gmail.com",
-			"password": "$2a$10$fSNATzUVtPO4vAmwcwgUN.VjaJI1aR6Krl345CVDdPBlyJLxAgJZy",
-			"id": "70f84056-e713-423e-b306-0213a6c0190b",
-			"role": "USER",
-			"membershipId": "5028aed4-bfbe-4ce7-be24-b563ca03b7cd",
-			"wallets": [],
-			"orders": [],
-			"wishlists": []
-		}
-	],
-	"memberships": [
-		{
-			"id": "5028aed4-bfbe-4ce7-be24-b563ca03b7cd",
-			"price": 0,
-			"name": "default",
-			"discount": 0,
-			"image": "https://res.cloudinary.com/danschgov/image/upload/v1697985709/nextjs/assets/ixzbveyqurq8t2key04r.svg"
-		},
-		{
-			"id": "ead5c184-7c78-421a-bcc1-d2eef62573bb",
-			"price": 200000,
-			"name": "silver",
-			"discount": 10,
-			"image": "https://res.cloudinary.com/danschgov/image/upload/v1697985709/nextjs/assets/ixzbveyqurq8t2key04r.svg"
-		},
-		{
-			"id": "2672d494-8efc-4193-a6bc-c11d87c72aee",
-			"price": 250000,
-			"name": "gold",
-			"discount": 15,
-			"image": "https://res.cloudinary.com/danschgov/image/upload/v1697985700/nextjs/assets/bjqcikxjwsevgsletgcv.svg"
-		},
-		{
-			"id": "dec26b5c-c718-40a4-9b04-c2fc448a69d1",
-			"price": 300000,
-			"name": "platinum",
-			"discount": 20,
-			"image": "https://res.cloudinary.com/danschgov/image/upload/v1697985707/nextjs/assets/ud6vpvps05mpel6nlvuu.svg"
-		}
-	],
-	"wallets": [
-		{
-			"id": "c8ab9ab6-bd9c-4c87-94fb-c7c8ae1ab5fd",
-			"userId": "eb850bbb-98c4-4755-9621-de4f71d2e530",
-			"balance": 0
-		},
-		{
-			"id": "e5b2dd6f-7088-46ca-8aa8-2329f2c0ab09",
-			"userId": "36f4b255-47c7-487b-a9fc-afddbe9914b6",
-			"balance": 2043304
-		},
-		{
-			"id": "37db11d0-b6a5-4509-b384-4d763c64470e",
-			"userId": "70f84056-e713-423e-b306-0213a6c0190b",
-			"balance": 0
-		}
-	],
-	"events": [
-		{
-			"id": "5ded7492-a6f2-44d2-a8ef-2975109ad90a",
-			"createdAt": 1697771724965,
-			"updatedAt": 1697771724965,
-			"name": "TWICE 5TH WORLD TOUR ‘READY TO BE’ IN JAKARTA",
-			"description": "ONCE Indonesia! TWICE akan kembali menyapa fans Indonesia lewat tur stadion mereka, TWICE 5TH WORLD TOUR 'READY TO BE' IN JAKARTA.\n\nKonser kali ini merupakan konser TWICE yang kedua di Jakarta, Indonesia.\n\nGrup K-Pop ikonik yang beranggotakan 9 bidadari yaitu, Momo, Jihyo, Sana, Nayeon, Tzuyu, Chaeyoung, Mina, Jeongyeon, dan Dahyun akan memberikan penampilan spesial untuk ONCE Indonesia. Bernyanyi dan berdansa bersama lagu-lagu hits mereka, seperti YES or YES, Fancy, I Can’t Stop Me dan juga lagu-lagu terbaru mereka, SET ME FREE dan MOONLIGHT SUNRISE!\n\nTWICE have stolen your heart, jadi beli tiket konsernya langsung di tiket.com sekarang!\n\nSampai jumpa di bulan Desember, ONCE~",
-			"date": 1703289600000,
-			"genreId": "1a96c234-faea-440f-880e-26b2bb081eef",
-			"locations": "Jakarta International Stadium",
-			"startTime": 1703289600000,
-			"endTime": 1703304000000,
-			"image": "http://res.cloudinary.com/danschgov/image/upload/v1697771722/nextjs/qnp8fqmowaifokqxipvp.jpg",
-			"seatingPlan": "http://res.cloudinary.com/danschgov/image/upload/v1697771722/nextjs/kdyfjvr1i0yec0g9gnbd.webp",
-			"isFlashSale": false,
-			"flashSaleDiscount": 0,
-			"tnc": "ONCE Indonesia! TWICE akan kembali menyapa fans Indonesia lewat tur stadion mereka, TWICE 5TH WORLD TOUR 'READY TO BE' IN JAKARTA.\n\nKonser kali ini merupakan konser TWICE yang kedua di Jakarta, Indonesia.\n\nGrup K-Pop ikonik yang beranggotakan 9 bidadari yaitu, Momo, Jihyo, Sana, Nayeon, Tzuyu, Chaeyoung, Mina, Jeongyeon, dan Dahyun akan memberikan penampilan spesial untuk ONCE Indonesia. Bernyanyi dan berdansa bersama lagu-lagu hits mereka, seperti YES or YES, Fancy, I Can’t Stop Me dan juga lagu-lagu terbaru mereka, SET ME FREE dan MOONLIGHT SUNRISE!\n\nTWICE have stolen your heart, jadi beli tiket konsernya langsung di tiket.com sekarang!\n\nSampai jumpa di bulan Desember, ONCE~",
-			"durations": 14400000
-		}
-	],
-	"event-packages": [
-		{
-			"id": "7391e1fe-3ba7-414e-8257-d97f93829eb9",
-			"eventId": "5ded7492-a6f2-44d2-a8ef-2975109ad90a",
-			"name": "GRAY NORTH - TIER 3 (TIKET LOYALTY)",
-			"price": 1225000,
-			"capacity": 991,
-			"discount": 10
-		},
-		{
-			"id": "42209f40-c596-4b27-b1fb-a73087e2a96e",
-			"eventId": "5ded7492-a6f2-44d2-a8ef-2975109ad90a",
-			"name": "YELLOW NORTH - TIER 2 (TIKET LOYALTY)",
-			"price": 1925000,
-			"capacity": 28,
-			"discount": 5
-		},
-		{
-			"id": "7312e80f-98f1-41e3-9881-b032de7fd176",
-			"eventId": "5ded7492-a6f2-44d2-a8ef-2975109ad90a",
-			"name": "GRAY SOUTH - TIER 3",
-			"price": 1165000,
-			"capacity": 9996,
-			"discount": 0
-		},
-		{
-			"id": "443303a8-8447-4c0a-b8f1-30fe9e52e2db",
-			"eventId": "5ded7492-a6f2-44d2-a8ef-2975109ad90a",
-			"name": "GRAY EAST - TIER 3",
-			"price": 1165000,
-			"capacity": 9997,
-			"discount": 0
-		}
-	],
-	"guess-stars": [
-		{
-			"id": "94361810-c19f-43ef-a89a-ae99248aa9dd",
-			"eventId": "5ded7492-a6f2-44d2-a8ef-2975109ad90a",
-			"name": "Twice",
-			"image": "http://res.cloudinary.com/danschgov/image/upload/v1697771723/nextjs/iagihiwabdnsx7ko9jws.jpg"
-		}
-	],
-	"merchandises": [
-		{
-			"id": "f96f7029-3e12-4386-beac-941f93c62c1a",
-			"eventId": "5ded7492-a6f2-44d2-a8ef-2975109ad90a",
-			"name": "Lightstick",
-			"stock": 89,
-			"price": 695000,
-			"discount": 0,
-			"image": "http://res.cloudinary.com/danschgov/image/upload/v1697771724/nextjs/v1ohab4ise0shntpdu1e.webp"
-		},
-		{
-			"id": "b94e8e66-1fd6-402b-a5fa-8bb4beebdf5d",
-			"eventId": "5ded7492-a6f2-44d2-a8ef-2975109ad90a",
-			"name": "Lanyard",
-			"stock": 9997,
-			"price": 21000,
-			"discount": 10,
-			"image": "http://res.cloudinary.com/danschgov/image/upload/v1697771724/nextjs/w4isqwijgkkpx2pxadjf.webp"
-		}
-	],
-	"participants": [],
-	"carousels": [
-		{
-			"id": "3a941636-37f6-40b3-aad2-da442a7f0242",
-			"eventId": "5ded7492-a6f2-44d2-a8ef-2975109ad90a"
-		}
-	],
-	"orders": [],
-	"wishlists": [],
-	"genres": [
-		{
-			"id": "1a96c234-faea-440f-880e-26b2bb081eef",
-			"value": "Pop"
-		},
-		{
-			"id": "3c5ac008-50cd-4a88-8bcb-25397d57aaf0",
-			"value": "Hip hop"
-		},
-		{
-			"id": "d55083ae-f3fb-43cc-9865-199d6e487cb5",
-			"value": "Reggae"
-		},
-		{
-			"id": "2c1fb86e-4616-46b1-bc9b-9e3f4c70c0d8",
-			"value": "Country"
-		},
-		{
-			"id": "9522ef62-d207-45a8-b478-1f743cc35073",
-			"value": "Rock"
-		},
-		{
-			"id": "3e8d1144-0b6a-49a0-9ec9-0eed99853e20",
-			"value": "Jazz"
-		},
-		{
-			"id": "3ca4825c-5591-443f-b338-8f1f14551c0d",
-			"value": "Folk"
-		}
-	],
-	"balances": []
+  "users": [
+    {
+      "email": "arif@gmail.com",
+      "password": "$2a$10$t8KK30NaR8pcugzTl4PWQOSFiHifa72D/ZEEjanV7xRnZwUgbUTlS",
+      "id": "eb850bbb-98c4-4755-9621-de4f71d2e530",
+      "role": "ADMIN",
+      "membershipId": "5028aed4-bfbe-4ce7-be24-b563ca03b7cd",
+      "wallets": [],
+      "orders": [],
+      "wishlists": []
+    },
+    {
+      "email": "arif2@gmail.com",
+      "password": "$2a$10$m7EaUfk7EAh4FPzwHdlWleK3qvtbqIgRdc6fUrNu5PGvdaDaEeraW",
+      "id": "36f4b255-47c7-487b-a9fc-afddbe9914b6",
+      "role": "USER",
+      "membershipId": "dec26b5c-c718-40a4-9b04-c2fc448a69d1",
+      "wallets": [],
+      "orders": [],
+      "wishlists": [],
+      "membership": {
+        "id": "dec26b5c-c718-40a4-9b04-c2fc448a69d1",
+        "price": 300000,
+        "name": "platinum",
+        "discount": 20,
+        "image": "https://res.cloudinary.com/danschgov/image/upload/v1697985707/nextjs/assets/ud6vpvps05mpel6nlvuu.svg"
+      }
+    },
+    {
+      "email": "arif3@gmail.com",
+      "password": "$2a$10$fSNATzUVtPO4vAmwcwgUN.VjaJI1aR6Krl345CVDdPBlyJLxAgJZy",
+      "id": "70f84056-e713-423e-b306-0213a6c0190b",
+      "role": "USER",
+      "membershipId": "5028aed4-bfbe-4ce7-be24-b563ca03b7cd",
+      "wallets": [],
+      "orders": [],
+      "wishlists": []
+    }
+  ],
+  "memberships": [
+    {
+      "id": "5028aed4-bfbe-4ce7-be24-b563ca03b7cd",
+      "price": 0,
+      "name": "default",
+      "discount": 0,
+      "image": "https://res.cloudinary.com/danschgov/image/upload/v1697985709/nextjs/assets/ixzbveyqurq8t2key04r.svg"
+    },
+    {
+      "id": "ead5c184-7c78-421a-bcc1-d2eef62573bb",
+      "price": 200000,
+      "name": "silver",
+      "discount": 10,
+      "image": "https://res.cloudinary.com/danschgov/image/upload/v1697985709/nextjs/assets/ixzbveyqurq8t2key04r.svg"
+    },
+    {
+      "id": "2672d494-8efc-4193-a6bc-c11d87c72aee",
+      "price": 250000,
+      "name": "gold",
+      "discount": 15,
+      "image": "https://res.cloudinary.com/danschgov/image/upload/v1697985700/nextjs/assets/bjqcikxjwsevgsletgcv.svg"
+    },
+    {
+      "id": "dec26b5c-c718-40a4-9b04-c2fc448a69d1",
+      "price": 300000,
+      "name": "platinum",
+      "discount": 20,
+      "image": "https://res.cloudinary.com/danschgov/image/upload/v1697985707/nextjs/assets/ud6vpvps05mpel6nlvuu.svg"
+    }
+  ],
+  "wallets": [
+    {
+      "id": "c8ab9ab6-bd9c-4c87-94fb-c7c8ae1ab5fd",
+      "userId": "eb850bbb-98c4-4755-9621-de4f71d2e530",
+      "balance": 0
+    },
+    {
+      "id": "e5b2dd6f-7088-46ca-8aa8-2329f2c0ab09",
+      "userId": "36f4b255-47c7-487b-a9fc-afddbe9914b6",
+      "balance": 2043304
+    },
+    {
+      "id": "37db11d0-b6a5-4509-b384-4d763c64470e",
+      "userId": "70f84056-e713-423e-b306-0213a6c0190b",
+      "balance": 0
+    }
+  ],
+  "events": [
+    {
+      "id": "5ded7492-a6f2-44d2-a8ef-2975109ad90a",
+      "createdAt": 1697771724965,
+      "updatedAt": 1697771724965,
+      "name": "TWICE 5TH WORLD TOUR ‘READY TO BE’ IN JAKARTA",
+      "description": "ONCE Indonesia! TWICE akan kembali menyapa fans Indonesia lewat tur stadion mereka, TWICE 5TH WORLD TOUR 'READY TO BE' IN JAKARTA.\n\nKonser kali ini merupakan konser TWICE yang kedua di Jakarta, Indonesia.\n\nGrup K-Pop ikonik yang beranggotakan 9 bidadari yaitu, Momo, Jihyo, Sana, Nayeon, Tzuyu, Chaeyoung, Mina, Jeongyeon, dan Dahyun akan memberikan penampilan spesial untuk ONCE Indonesia. Bernyanyi dan berdansa bersama lagu-lagu hits mereka, seperti YES or YES, Fancy, I Can’t Stop Me dan juga lagu-lagu terbaru mereka, SET ME FREE dan MOONLIGHT SUNRISE!\n\nTWICE have stolen your heart, jadi beli tiket konsernya langsung di tiket.com sekarang!\n\nSampai jumpa di bulan Desember, ONCE~",
+      "date": 1703289600000,
+      "genreId": "1a96c234-faea-440f-880e-26b2bb081eef",
+      "locations": "Jakarta International Stadium",
+      "startTime": 1703289600000,
+      "endTime": 1703304000000,
+      "image": "http://res.cloudinary.com/danschgov/image/upload/v1697771722/nextjs/qnp8fqmowaifokqxipvp.jpg",
+      "seatingPlan": "http://res.cloudinary.com/danschgov/image/upload/v1697771722/nextjs/kdyfjvr1i0yec0g9gnbd.webp",
+      "isFlashSale": false,
+      "flashSaleDiscount": 0,
+      "tnc": "ONCE Indonesia! TWICE akan kembali menyapa fans Indonesia lewat tur stadion mereka, TWICE 5TH WORLD TOUR 'READY TO BE' IN JAKARTA.\n\nKonser kali ini merupakan konser TWICE yang kedua di Jakarta, Indonesia.\n\nGrup K-Pop ikonik yang beranggotakan 9 bidadari yaitu, Momo, Jihyo, Sana, Nayeon, Tzuyu, Chaeyoung, Mina, Jeongyeon, dan Dahyun akan memberikan penampilan spesial untuk ONCE Indonesia. Bernyanyi dan berdansa bersama lagu-lagu hits mereka, seperti YES or YES, Fancy, I Can’t Stop Me dan juga lagu-lagu terbaru mereka, SET ME FREE dan MOONLIGHT SUNRISE!\n\nTWICE have stolen your heart, jadi beli tiket konsernya langsung di tiket.com sekarang!\n\nSampai jumpa di bulan Desember, ONCE~",
+      "durations": 14400000
+    }
+  ],
+  "event-packages": [
+    {
+      "id": "7391e1fe-3ba7-414e-8257-d97f93829eb9",
+      "eventId": "5ded7492-a6f2-44d2-a8ef-2975109ad90a",
+      "name": "GRAY NORTH - TIER 3 (TIKET LOYALTY)",
+      "price": 1225000,
+      "capacity": 991,
+      "discount": 10
+    },
+    {
+      "id": "42209f40-c596-4b27-b1fb-a73087e2a96e",
+      "eventId": "5ded7492-a6f2-44d2-a8ef-2975109ad90a",
+      "name": "YELLOW NORTH - TIER 2 (TIKET LOYALTY)",
+      "price": 1925000,
+      "capacity": 28,
+      "discount": 5
+    },
+    {
+      "id": "7312e80f-98f1-41e3-9881-b032de7fd176",
+      "eventId": "5ded7492-a6f2-44d2-a8ef-2975109ad90a",
+      "name": "GRAY SOUTH - TIER 3",
+      "price": 1165000,
+      "capacity": 9996,
+      "discount": 0
+    },
+    {
+      "id": "443303a8-8447-4c0a-b8f1-30fe9e52e2db",
+      "eventId": "5ded7492-a6f2-44d2-a8ef-2975109ad90a",
+      "name": "GRAY EAST - TIER 3",
+      "price": 1165000,
+      "capacity": 9997,
+      "discount": 0
+    }
+  ],
+  "guess-stars": [
+    {
+      "id": "94361810-c19f-43ef-a89a-ae99248aa9dd",
+      "eventId": "5ded7492-a6f2-44d2-a8ef-2975109ad90a",
+      "name": "Twice",
+      "image": "http://res.cloudinary.com/danschgov/image/upload/v1697771723/nextjs/iagihiwabdnsx7ko9jws.jpg"
+    }
+  ],
+  "merchandises": [
+    {
+      "id": "f96f7029-3e12-4386-beac-941f93c62c1a",
+      "eventId": "5ded7492-a6f2-44d2-a8ef-2975109ad90a",
+      "name": "Lightstick",
+      "stock": 89,
+      "price": 695000,
+      "discount": 0,
+      "image": "http://res.cloudinary.com/danschgov/image/upload/v1697771724/nextjs/v1ohab4ise0shntpdu1e.webp"
+    },
+    {
+      "id": "b94e8e66-1fd6-402b-a5fa-8bb4beebdf5d",
+      "eventId": "5ded7492-a6f2-44d2-a8ef-2975109ad90a",
+      "name": "Lanyard",
+      "stock": 9997,
+      "price": 21000,
+      "discount": 10,
+      "image": "http://res.cloudinary.com/danschgov/image/upload/v1697771724/nextjs/w4isqwijgkkpx2pxadjf.webp"
+    }
+  ],
+  "participants": [],
+  "carousels": [
+    {
+      "id": "3a941636-37f6-40b3-aad2-da442a7f0242",
+      "eventId": "5ded7492-a6f2-44d2-a8ef-2975109ad90a"
+    }
+  ],
+  "orders": [],
+  "wishlists": [],
+  "genres": [
+    {
+      "id": "1a96c234-faea-440f-880e-26b2bb081eef",
+      "value": "Pop"
+    },
+    {
+      "id": "3c5ac008-50cd-4a88-8bcb-25397d57aaf0",
+      "value": "Hip hop"
+    },
+    {
+      "id": "d55083ae-f3fb-43cc-9865-199d6e487cb5",
+      "value": "Reggae"
+    },
+    {
+      "id": "2c1fb86e-4616-46b1-bc9b-9e3f4c70c0d8",
+      "value": "Country"
+    },
+    {
+      "id": "9522ef62-d207-45a8-b478-1f743cc35073",
+      "value": "Rock"
+    },
+    {
+      "id": "3e8d1144-0b6a-49a0-9ec9-0eed99853e20",
+      "value": "Jazz"
+    },
+    {
+      "id": "3ca4825c-5591-443f-b338-8f1f14551c0d",
+      "value": "Folk"
+    }
+  ],
+  "balances": []
 }

@@ -16,9 +16,11 @@ const corsOptions = {
     optionsSuccessStatus: 204,
 };
 
+const middlewares = jsonServer.defaults()
+
 app.db = router.db
 app.use(cors(corsOptions));
-
+app.use(middlewares)
 app.use(express.json());
 
 app.use(auth);
