@@ -1,8 +1,11 @@
 // See https://github.com/typicode/json-server#module
 const jsonServer = require('json-server')
 const auth = require('json-server-auth')
+const express = require('express')
+const cors = require('cors')
 
-const server = jsonServer.create()
+const app = express();
+const port = 3000;
 
 // Uncomment to allow write operations
 const fs = require('fs')
@@ -15,19 +18,27 @@ const router = jsonServer.router(db)
 // Comment out to allow write operations
 // const router = jsonServer.router('db.json')
 
+const corsOptions = {
+    origin: '*', // Replace '*' with the specific origin(s) you want to allow
+    methods: 'GET,POST,PUT,DELETE',
+    allowedHeaders: 'Content-Type, Authorization',
+    optionsSuccessStatus: 204,
+};
+
 const middlewares = jsonServer.defaults()
 
-server.db = router.db
+app.db = router.db
 
-server.use(auth)
-server.use(middlewares)
-// Add this before server.use(router)
-server.use(jsonServer.rewriter({
-    '/api/*': '/$1',
-    '/blog/:resource/:id/show': '/:resource/:id'
-}))
-server.use(router)
-server.listen(3000, () => {
+app.use(auth)
+app.use(cors(corsOptions));
+app.use(middlewares)
+app.use(express.json());
+
+
+// Define API routes
+app.use('/', router);
+
+app.listen(3000, () => {
     console.log('JSON Server is running')
 })
 
