@@ -15,6 +15,8 @@ const corsOptions = {
     allowedHeaders: 'Content-Type, Authorization',
     optionsSuccessStatus: 204,
 };
+
+app.db = router.db
 app.use(cors(corsOptions));
 
 app.use(express.json());
