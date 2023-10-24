@@ -1,42 +1,35 @@
-const jsonServer = require('json-server');
-const auth = require('json-server-auth');
-const cors = require('cors');
+// See https://github.com/typicode/json-server#module
+const jsonServer = require('json-server')
+const auth = require('json-server-auth')
 
-const server = jsonServer.create();
+const server = jsonServer.create()
 
-const router = jsonServer.router('db.json');
-const middlewares = jsonServer.defaults();
+// Uncomment to allow write operations
+// const fs = require('fs')
+// const path = require('path')
+// const filePath = path.join('db.json')
+// const data = fs.readFileSync(filePath, "utf-8");
+// const db = JSON.parse(data);
+// const router = jsonServer.router(db)
 
-server.db = router.db;
+// Comment out to allow write operations
+const router = jsonServer.router('db.json')
 
-server.use((req, res, next) => {
-    // Set the allowed origins here, or use a dynamic function to check the origin
-    res.header('Access-Control-Allow-Origin', '*'); // Replace '*' with the specific origin(s) you want to allow
+const middlewares = jsonServer.defaults()
 
-    // Set the allowed methods and headers as needed
-    res.header('Access-Control-Allow-Methods', 'GET,POST,PUT,DELETE');
-    res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+server.db = router.db
 
-    // Handle preflight requests
-    if (req.method === 'OPTIONS') {
-        res.sendStatus(204);
-    } else {
-        next();
-    }
-});
-
-server.use(auth);
-server.use(middlewares);
-
+server.use(auth)
+server.use(middlewares)
+// Add this before server.use(router)
 server.use(jsonServer.rewriter({
     '/api/*': '/$1',
     '/blog/:resource/:id/show': '/:resource/:id'
-}));
-
-server.use(router);
-
+}))
+server.use(router)
 server.listen(3000, () => {
-    console.log('JSON Server is running');
-});
+    console.log('JSON Server is running')
+})
 
-module.exports = server;
+// Export the Server API
+module.exports = server
