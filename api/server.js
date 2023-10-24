@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(auth);
 
 // Define API routes
-app.use('/api', router);
+app.use('/', router);
 
 app.listen(port, () => {
     console.log(`JSON Server is running on port ${port}`);
