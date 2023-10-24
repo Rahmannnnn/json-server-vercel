@@ -175,7 +175,13 @@
     }
   ],
   "orders": [],
-  "wishlists": [],
+  "wishlists": [
+    {
+      "id": "20f59735-4dde-4ff7-8a06-9c1efcaf3eb7",
+      "userId": "36f4b255-47c7-487b-a9fc-afddbe9914b6",
+      "eventId": "5ded7492-a6f2-44d2-a8ef-2975109ad90a"
+    }
+  ],
   "genres": [
     {
       "id": "1a96c234-faea-440f-880e-26b2bb081eef",
